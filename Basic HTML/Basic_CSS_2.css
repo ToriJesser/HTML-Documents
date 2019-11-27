@@ -1,0 +1,9 @@
+p {
+	color: chartreuse;
+	background-color: midnightblue;
+	font-size: extra-large;
+	text-align: right;
+}
+p {
+	text-shadow: 2px 2px #FF0000;
+}

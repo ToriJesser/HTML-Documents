@@ -1,0 +1,15 @@
+table {
+	border: 3px lightslategrey;
+}
+td:hover {
+	background-color: floralwhite;
+	color: lawngreen;
+}
+tr, th {
+	background-color: ghostwhite;
+	color: gold;
+}
+tr, td {
+	background-color: ghostwhite;
+	color: lightcoral;
+}
