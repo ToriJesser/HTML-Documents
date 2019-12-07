@@ -1,0 +1,47 @@
+.center{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    border-radius: 25px;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 3px solid crimson;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(125,98,32);
+    color: rgb(98,240,75);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(237, 250, 57);
+    width: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 41%;
+    transform: translate(50%, 50%)
+}
+

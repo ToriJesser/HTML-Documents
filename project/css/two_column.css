@@ -1,0 +1,25 @@
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    color:rgba(0, 104, 240, 0.918)
+}
+
+div {
+    height: 350px;
+    width: 50%;
+    background-color: rgb(199, 124, 235)
+}
+
+p:hover {
+    background-color: white;
+    color: red;
+}
