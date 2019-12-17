@@ -26,52 +26,138 @@
 		<!-- GALLERY -->
 		<section>
 			<div id="gallery">
-				<h1>Gallery - Pick from a variety of unique places!</h1>
-				<div>
+				<h1 style="text-align:center">Gallery - Pick from a variety of unique places!</h1>
+				<div class="row">
 				
 					<!-- PHOTO-CONTAINER 1 -->
-					<div>
-						<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumbnail_1.jpg" alt="Ah jeez I guess something went wrong." width="300" height="300">
+					<div class="column">
+						<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumbnail_1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" alt="Ah jeez I guess something went wrong." width="300" height="300">
 					</div>
 					
 					<!-- PHOTO-CONTAINER 2 -->
-					<div>
-						<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumbnail_2.jpg" alt="Ah jeez I guess something went wrong." width="300" height="300">
+					<div class="column">
+						<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumbnail_2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" alt="Ah jeez I guess something went wrong." width="300" height="300">
 					</div>
 					
 					<!-- PHOTO-CONTAINER 3 -->
-					<div>
-						<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumbnail_3.jpg" alt="Ah jeez I guess something went wrong." width="300" height="300">
+					<div class="column">
+						<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumbnail_3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" alt="Ah jeez I guess something went wrong." width="300" height="300">
 					</div>
 					
 					<!-- PHOTO-CONTAINER 4 -->
-					<div>
-						<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumbnail_4.jpg" alt="Ah jeez I guess something went wrong." width="300" height="300">
+					<div class="column">
+						<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumbnail_4.jpg"  onclick="openModal();currentSlide(4)" class="hover-shadow cursor" alt="Ah jeez I guess something went wrong." width="300" height="300">
 					</div>
 					
 					<!-- PHOTO-CONTAINER 5 -->
-					<div>
-						<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumbnail_5.jpg" alt="Ah jeez I guess something went wrong." width="300" height="300">
+					<div class="column">
+						<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumbnail_5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow cursor" alt="Ah jeez I guess something went wrong." width="300" height="300">
 					</div>
 					
 					<!-- PHOTO-CONTAINER 6 -->
-					<div>
-						<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumbnail_6.jpg" alt="Ah jeez I guess something went wrong." width="300" height="300">
+					<div class="column">
+						<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumbnail_6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow cursor" alt="Ah jeez I guess something went wrong." width="300" height="300">
 					</div>
 					
 					<!-- PHOTO-CONTAINER 7 -->
-					<div>
-						<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumbnail_7.png" alt="Ah jeez I guess something went wrong." width="300" height="300">
+					<div class="column">
+						<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumbnail_7.png" onclick="openModal();currentSlide(7)" class="hover-shadow cursor" alt="Ah jeez I guess something went wrong." width="300" height="300">
 					</div>
 					
 					<!-- PHOTO-CONTAINER 8 -->
-					<div>
-						<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumbnail_8.png" alt="Ah jeez I guess something went wrong." width="300" height="300">
+					<div class="column">
+						<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumbnail_8.png" onclick="openModal();currentSlide(8)" class="hover-shadow cursor" alt="Ah jeez I guess something went wrong." width="300" height="300">
 					</div>
 					
 					<!-- PHOTO-CONTAINER 9 -->
-					<div>
-						<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumbnail_9.png" alt="Ah jeez I guess something went wrong." width="300" height="300">
+					<div class="column">
+						<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumbnail_9.png" onclick="openModal();currentSlide(9)" class="hover-shadow cursor" alt="Ah jeez I guess something went wrong." width="300" height="300">
+					</div>
+				</div>
+
+				<div id="myModal" class="modal">
+					<span class="close cursor" onclick="closeModal()">&times;</span>
+					<div class="modal-content">
+
+						<div class="mySlides">
+							<div class="numbertext">1 / 9</div>
+							<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumb wide\thumbnail_1_wide.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+								<div class="numbertext">2 / 9</div>
+								<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumb wide\thumbnail_2_wide.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">3 / 9</div>
+							<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumb wide\thumbnail_3_wide.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">4 / 9</div>
+							<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumb wide\thumbnail_4_wide.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">5 / 9</div>
+							<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumb wide\thumbnail_5_wide.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">6 / 9</div>
+							<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumb wide\thumbnail_6_wide.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">7 / 9</div>
+							<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumb wide\thumbnail_7_wide.png" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">8 / 9</div>
+							<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumb wide\thumbnail_8_wide.png" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">9 / 9</div>
+							<img src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumb wide\thumbnail_9_wide.png" style="width:100%">
+						</div>
+
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+						<div class="caption-container">
+							<p id="caption"></p>
+						</div>
+
+						<div class="column">
+							<img class="demo cursor" src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumb wide\thumbnail_1_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="Rick and Morty">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumb wide\thumbnail_2_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Rick and Morty">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumb wide\thumbnail_3_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Rick and Morty">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumb wide\thumbnail_4_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Rick and Morty">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumb wide\thumbnail_5_wide.jpg" style="width:100%" onclick="currentSlide(5)" alt="Rick and Morty">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumb wide\thumbnail_6_wide.jpg" style="width:100%" onclick="currentSlide(6)" alt="Rick and Morty">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumb wide\thumbnail_7_wide.png" style="width:100%" onclick="currentSlide(7)" alt="Rick and Morty">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumb wide\thumbnail_8_wide.png" style="width:100%" onclick="currentSlide(8)" alt="Rick and Morty">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="C:\Users\Toriana\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\Thumb\thumb wide\thumbnail_9_wide.png" style="width:100%" onclick="currentSlide(9)" alt="Rick and Morty">
+						</div>
 					</div>
 				</div>
 			</div>
@@ -112,6 +198,8 @@
 				<embed src="https://www.youtube.com/embed/wh10k2LPZiI" width="550" height="400">
 		</p>
 		<!-- END FOOTER -->
+
+		<script src="js/one_page_website.js"></script>
 	</body>
 </html>
 	
